@@ -1,0 +1,54 @@
+﻿.navbar-inverse {
+    background-color: #FFF;
+}
+
+.navbar-header {
+    padding: 10px;
+    font-size: 24px;
+    margin-left: 20px;
+}
+
+.sidebar {
+    display: flex;
+    float: left;
+    padding: 20px;
+    max-width: 200px;
+    font: normal 18px Calibri;
+}
+
+.sidebar .sidebar-list-title {
+    font-weight: bold;
+}
+
+.sidebar-content li {
+    list-style: none;
+    padding: 2px;
+    cursor: pointer;
+}
+
+.sidebar-content li:hover {
+    background-color: #e3e3e3;
+}
+
+.listcontent li{
+    list-style: none;
+    float: left;
+    width: 100%;
+    padding: 10px;
+}
+
+.listcontent .details {
+    display: inline-block;
+    max-width: 700px;
+    padding: 5px;
+}
+
+#pagination li {
+    display: inline-block;
+    width: auto;
+    cursor: pointer;
+}
+
+#pagination li:hover {
+    text-decoration: underline;
+}
