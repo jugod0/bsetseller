@@ -7,7 +7,7 @@ namespace RSSFeed.FeedProvider
 {
     public class AmazonProvider : BaseProvider, IAmazonProvider
     {
-        public AmazonProvider(IRSSFeed rSSFeed,
+        private AmazonProvider(IRSSFeed rSSFeed,
                               IFeedParser feedParser)            
             :base(rSSFeed, feedParser)
         {            
